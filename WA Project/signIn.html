@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>sign in</title>
+        <script type="text/JavaScript" src="script.js"></script>
+        <style>
+            *{text-align: center;}
+            body{background-color:peachpuff; direction: ltr;}
+            .div1{
+                border: 2px solid black;
+                position: absolute;
+                width: 20%;
+                height: 50%;
+                left: 39%;
+                top: 20%;
+                background-color:peachpuff;
+            }
+            header{
+                background-color: grey;
+                position: absolute;
+                width: 100%;
+                top: 0%;
+    
+            }
+            footer{
+                background-color: grey;
+                position: absolute;
+                width: 100%;
+                height: 9%;
+                bottom: 0%;
+                
+    
+    
+            }
+            .copyright{   
+                position: relative;
+            }
+            .logo{
+                position: relative;
+                width: 5%;
+                left: 47.5%;
+            }
+            .navHeader1{
+                font-size: 15px;
+                position: absolute;
+                top: 38%;
+                right: 7%;
+            }
+            #anchG1{
+                margin-left: 19px;
+                color: black;
+            }
+            #signing{
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 15%;
+                border-width: 4px;
+                border-color: black;
+                background-color: darkcyan;
+            }
+            .navHeader2{
+                position: absolute;
+                left: 1%;
+                top: 38%;
+            }
+            a:hover{
+                color: red;
+                font-weight: bold;
+            }
+            #button{
+                position: absolute;
+                bottom: 4%;
+                right: 42%;
+            }
+            .exlink{
+                position: absolute;
+                right: 42%;
+                top: 50%;
+            }
+            .exlink a {margin-right: 40px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <a id="logo" href="HomePage.html"><img class="logo" src="photo.jpg" alt="logo"></a>
+            
+            <nav class="navHeader1">
+            <a id="anchG1" href=""></a>
+            <a id="anchG1" href="Product.html">Products</a>
+            <a id="anchG1" href="HomePage.html">Home</a>
+            </nav>
+
+            <nav class="navHeader2">
+                <a id="signing" href="signIn.html">Sign In</a>
+                <a id="signing" href="signUp.html">Sign Up</a>
+            </nav>
+        </header>
+        <footer>
+            <div class="copyright">CopyRight&copy;</div>
+            <div class="exlink">
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://twitter.com/">Twitter</a>
+            </div>
+        </footer>
+        <div class="div1">
+            <form action="get" id="form">
+                <div id="error"></div>
+                <label for="username">UserName :</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+                <input type="button" id="button" value="submit">
+            </form>
+        </div>
+    </body>
+</html>

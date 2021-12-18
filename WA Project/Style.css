@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    
+}
+body{
+    background-color:paleturquoise;    /*The Page body color*/
+}
+header,footer{
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    
+}
+footer{
+    height: 9%;
+    bottom: 0%;
+    
+    
+}
+.copyright{   /*The copyrighy Symbole*/
+    position: absolute;
+    right: 50%;
+}
+.logo{
+    position: relative;
+    width: 5%;
+}
+.navHeader1{
+    font-size: 15px;
+    position: absolute;
+    top: 38%;
+    right: 7%;
+}
+#anchG1{
+    margin-left: 19px;
+    color: black;
+}
+#signing{
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 15%;
+    border-width: 4px;
+    border-color: black;
+    background-color: darkcyan;
+}
+.navHeader2{
+    position: absolute;
+    left: 1%;
+    top: 38%;
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+}
+.exlink{
+    position: absolute;
+    right: 44%;
+    top: 50%;
+}
+.exlink a {margin-right: 40px;}
+.content{
+    direction: ltr;
+    position: absolute;
+    top: 10%;
+    right: 59.7%;
+    width: 40%;
+}
+.vid{
+    position: relative;
+    width: 20%;
+}
+@media screen and (min-width: 1281px) {
+    body{
+        background-color: red;
+    }
+    
+}

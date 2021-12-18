@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+        <style>
+            *{text-align: center;}
+            body{background-color:peachpuff; direction: ltr;}
+            .div1{
+                border: 2px solid black;
+                position: absolute;
+                width: 20%;
+                left: 39%;
+                top: 15%;
+                background-color:peachpuff;
+            }
+            th,tr,td{border: 2px solid black;}
+            .div2{
+                position: absolute;
+                top: 20%;
+            }
+            td ul{color: red;}
+            header{
+                background-color: grey;
+                position: absolute;
+                width: 100%;
+                top: 0%;
+    
+            }
+            footer{
+                background-color: grey;
+                position: fixed;
+                width: 100%;
+                height: 9%;
+                bottom: 0%;
+                
+    
+    
+            }
+            .copyright{   /*The copyrighy Symbole*/
+                position: relative;
+            }
+            .logo{
+                position: relative;
+                width: 5%;
+                left: 47.5%;
+            }
+            .navHeader1{
+                font-size: 15px;
+                position: absolute;
+                top: 38%;
+                right: 7%;
+            }
+            #anchG1{
+                margin-left: 19px;
+                color: black;
+            }
+            #signing{
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 15%;
+                border-width: 4px;
+                border-color: black;
+                background-color: darkcyan;
+            }
+            .navHeader2{
+                position: absolute;
+                left: 1%;
+                top: 38%;
+            }
+            a:hover{
+                color: red;
+                font-weight: bold;
+            }
+            .exlink{
+                position: absolute;
+                right: 42%;
+                top: 50%;
+            }
+            .exlink a {margin-right: 40px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <a id="logo" href="HomePage.html"><img class="logo" src="photo.jpg" alt="logo"></a>
+            
+            <nav class="navHeader1">
+            <a id="anchG1" href="Product.html">Products</a>
+            <a id="anchG1" href="HomePage.html">Home</a>
+            </nav>
+
+            <nav class="navHeader2">
+                <a id="signing" href="signIn.html">Sign In</a>
+                <a id="signing" href="signUp.html">Sign Up</a>
+            </nav>
+        </header>
+        <footer>
+            <div class="copyright">CopyRight&copy;</div>
+            <div class="exlink">
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://twitter.com/">Twitter</a>
+            </div>
+        </footer>
+
+        
+        <div class="div1">
+            <form action="get">
+                <label for="fname">First Name :</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last Name :</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="username">User Name :</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password :</label><br>
+                <input type="text" id="password" name=""><br><br>
+                <label for="DoB">Date of Birth :</label><br>
+                <input type="date" id="DoB" name="DoB"><br><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" placeholder="abc@domain.com"><br><br>
+                <input type="button" value="submit">
+             </form>
+        </div>
+        <div class="div2">
+            <table>
+                <th>To be filled</th>
+                <th>Rules</th>
+                <tr>
+                    <td>UserName</td>
+                    <td>
+                        <ul>
+                            <li>A-Z, a-z, 1-9</li>
+                            <li>At least 5 letters</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <ul>
+                            <li>A-Z, a-z, 1-9</li>
+                            <li>At least 1 uppercase letter</li>
+                            <li>At least 8 letters minimum</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
